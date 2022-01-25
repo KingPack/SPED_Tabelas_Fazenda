@@ -1,0 +1,280 @@
+{
+    "Pacote":{
+       "Tabelas Genericas - ICMS":{
+          "5.1.1- Tabela de Codigos de Ajustes da Apuracao do ICMS":"http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=2&idTabela=15",
+          "Tabela de Tipos de Utilização dos Créditos Fiscais - ICMS":"http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=2&idTabela=14",
+          "Tabela 5.8 - Código de Produto - Usinas":"http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=2&idTabela=1172",
+          "Tabela de Códigos de Receita - GNRE":"http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=2&idTabela=181"
+       },
+       "Tabelas de Classes de Consumo":{
+          "4.4.1- Tabela Classificação de Itens de Energia Elétrica, Serviços de Comunicação e Telecomunicação":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=6&idTabela=31",
+             "Código de classificação do item",
+             "Descrição do Código de classificação do item"
+          ],
+          "4.4.2- Tabela Classes de Consumo de Água Canalizada":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=6&idTabela=28",
+             "Código de Consumo de Fornecimento D'água",
+             "Descrição do Código de Consumo"
+          ],
+          "4.4.3- Tabela Classes de Consumo de Gás Canalizado":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=6&idTabela=29",
+             "Código da classe de consumo de gás canalizado",
+             "Descrição do Código da classe de consumo"
+          ],
+          "4.4.4- Tabela Classes de Consumo dos Serviços de Comunicação e Telecomunicação":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=6&idTabela=30",
+             "Código de classe de consumo dos serviços de comunicação e telecomunicação",
+             "Descrição do Código de classe de consumo"
+          ],
+          "4.4.5 - Tabela - Faixa de Consumo de Energia Elétrica ":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=6&idTabela=32",
+             "Código de classe de consumo de energia elétrica",
+             "Descrição da classe de consumo de energia elétrica"
+          ]
+       },
+       "Tabelas do IPI":{
+          "4.5.1- Tabela de Codigos da Classe de Enquadramento do IPI":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=4&idTabela=20",
+             "Código da classe de enquadramento do IPI",
+             "Descrição da classe de enquadramento do IPI"
+          ],
+          "4.5.2- Tabela de Código de Selo de Controle":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=4&idTabela=22",
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=4&idTabela=22",
+             "Descrição do selo de controle do IPI"
+          ],
+          "4.5.4 - Tabela Código de Ajuste da Apuração do IPI":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=4&idTabela=19",
+             "Código do Ajuste",
+             "Descrição do Ajuste"
+          ],
+          "4.5.5 - Classificação de Contribuintes do IPI":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=4&idTabela=1171",
+             "Tipo de Atividade",
+             "Descrição do Tipo de Atividade"
+          ],
+          "Tabela Código de Enquadramento Legal do IPI":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=4&idTabela=21",
+             "Codigo",
+             "Descricao"
+          ]
+       },
+       "Tabelas de Situacao Tributaria":{
+          "Tabela Código da Situação Tributária - CST (ICMS)":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=5&idTabela=130",
+             "Código da Situação Tributária referente ao ICMS",
+             "Descrição do Código da Situação Tributária"
+          ],
+          "Tabela Código de Situação Tributária da COFINS":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=5&idTabela=23",
+             "Código da Situação Tributária referente ao COFINS",
+             "Descrição do Código da Situação Tributária COFINS"
+          ],
+          "Tabela Código de Situação Tributária do PIS":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=5&idTabela=27",
+             "Código da Situação Tributária referente ao PIS",
+             "Descrição do Código da Situação Tributária do PIS"
+          ]
+       },
+       "Tabelas de Caracteristicas dos Documentos":{
+          "4.1.2- Tabela Situação do Documento":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=3&idTabela=18",
+             "Código da Situação do Documento",
+             "Descrição da Situação do Documento"
+          ],
+          "Tabela de Indicador de Emitente":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=3&idTabela=16",
+             "Código do Indicador de Emitente",
+             "Descrição do Indicador de Emitente"
+          ],
+          "Tabela Documentos Fiscais do ICMS":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=3&idTabela=17",
+             "Código do Modelo",
+             "Descrição do Modelo"
+          ]
+       },
+       "Tabelas Globais":{
+          "3.1.1 - Tabela Versão do Leiaute - Sped Fiscal":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=11",
+             "Código do Leiaute",
+             "Versão do Leiaute"
+          ],
+          "4.4.6- Tabela de Códigos dos Totalizadores Parciais da REDUÇÃO Z":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=8",
+             "Código do Totalizador",
+             "Descrição do Totalizador Parcial"
+          ],
+          "5.4 - Tabela de Códigos das Obrigações do ICMS a Recolher":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=5",
+             "Código da obrigação a recolher",
+             "Descrição da obrigação a recolher"
+          ],
+          "CEST - Código Especificador da Substituição Tributária":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=996",
+             "Código Especificador da Substituição Tributária",
+             "Descrição do Código Especificador da Subs. Tribut."
+          ],
+          "Tabela Código Fiscal de Operação e Prestação - CFOP":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=2",
+             "CFOP",
+             "Descrição do CFOP"
+          ],
+          "Tabela de Muncípios do IBGE":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=4",
+             "Código do Município",
+             "Nome do Município"
+          ],
+          "Tabela de Países do IBGE":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=6",
+             "Código do País",
+             "Nome do País"
+          ],
+          "Tabela de Países SISCOMEX":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=13",
+             "Código do País",
+             "Nome do País"
+          ],
+          "Tabela de Produtos para Combustíveis / Solvente":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=1",
+             "Código do combustível",
+             "Descrição do Combustível"
+          ],
+          "Tabela Gênero do Item de Mercadoria/Serviço":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=3",
+             "Código do Gênero",
+             "Descrição do Gênero"
+          ],
+          "Tipo de Conhecimento de Transporte Eletrônico":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=12",
+             "Tipo de Conhecimento de Transporte Eletrônico",
+             "Descrição do Tipo de Conhecimento de Transporte"
+          ],
+          "Tipo do Conhecimento de Transporte":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=7",
+             "Tipo do Conhecimento de Transporte",
+             "Descrição do Tipo de Conhecimento de Transporte"
+          ],
+          "UF Código IBGE - Sigla":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=9",
+             "Código da UF - IBGE",
+             "Sigla da UF"
+          ],
+          "UF Sigla":[
+             "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=10",
+             "Sigla da UF",
+             "Descrição da Unidade da Federação"
+          ]
+       },
+       "Estados":{
+          "Tabelas do Acre":{
+             "5.1.1- Tabela de Códigos de Ajustes da Apuração do ICMS - AC":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=7&idTabela=727",
+                "Código do Ajuste",
+                "Descrição do Ajuste"
+             ],
+             "5.2 - Tabela de Iinformações Adicionais da Apuração - Valores Declaratórios AC":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=7&idTabela=724",
+                "Código da informação adicional",
+                "Descrição da informação adicional"
+             ],
+             "5.3 - Tabela de Ajustes e Informações de Valores Provenientes de Documento Fiscal - AC ":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=7&idTabela=725",
+                "Código do ajustes/benefício/incentivo",
+                "Descrição do ajustes/benefício/incentivo"
+             ],
+             "Tabela de Códigos de Receita - AC":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=7&idTabela=726",
+                "Código de Receita",
+                "Descrição do Código de Receita"
+             ],
+             "Tabela de Itens UF Índice de Participação dos Municípios - AC":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=7&idTabela=1314",
+                "Código de Item para IPM",
+                "Descrição do Código de Item para IPI"
+             ]
+          },
+          "Tabelas de Alagoas":{
+             "Tabela de Itens UF Índice de Participação dos Municípios AL":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=8&idTabela=1484",
+                "Código de Item para IPM",
+                "Descrição do Código de Item para IPI"
+             ],
+             "5.1.1- Tabela de Códigos de Ajustes da Apuração do ICMS":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=8&idTabela=33",
+                "Código do Ajuste",
+                "Descrição do Ajuste"
+             ],
+             "5.2 - Tabela de Iinformações Adicionais da Apuração - Valores Declaratórios":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=8&idTabela=34",
+                "Código da informação adicional",
+                "Descrição da informação adicional"
+             ],
+             "5.3 - Tabela de Ajustes e Informações de Valores Provenientes de Documento Fiscal":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=8&idTabela=35",
+                "Código do ajustes/benefício/incentivo",
+                "Descrição do ajustes/benefício/incentivo"
+             ],
+             "Tabela 5.8 - Código de Produto Usinas":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=8&idTabela=1485",
+                "Código Produto",
+                "Descrição do Produto - Usina"
+             ],
+             "Tabela de Códigos de Receita":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=8&idTabela=196",
+                "Código de Receita",
+                "Descrição do Código de Receita"
+             ]
+          },
+          "Tabelas do Amapá":{
+             "5.1.1- Tabela de Códigos de Ajustes da Apuração do ICMS AP":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=10&idTabela=842",
+                "Código do Ajuste",
+                "Descrição do Ajuste"
+             ],
+             "5.2 - Tabela de Iinformações Adicionais da Apuração - Valores Declaratórios":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=10&idTabela=997",
+                "Código da informação adicional",
+                "Descrição da informação adicional"
+             ],
+             "5.3 - Tabela de Ajustes e Informações de Valores Provenientes de Documento Fiscal AP":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=10&idTabela=844",
+                "Código do ajustes/benefício/incentivo",
+                "Descrição do ajustes/benefício/incentivo"
+             ],
+             "5.5- Tabela de Tipos de Utilização dos Créditos Fiscais - ICMS AP":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=10&idTabela=843",
+                "Código do Tipo de utilização do crédito",
+                "Descrição do Tipo de utilização do crédito"
+             ],
+             "Tabela de Códigos de Receita - AP":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=10&idTabela=845",
+                "Código de Receita",
+                "Descrição do Código de Receita"
+             ]
+          },
+          "Tabelas do Amazonas":{
+             "5.1.1- Tabela de Códigos de Ajustes da Apuração do ICMS":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=9&idTabela=220",
+                "Código do Ajuste",
+                "Descrição do Ajuste"
+             ],
+             "5.2 - Tabela de Iinformações Adicionais da Apuração - Valores Declaratórios - AM":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=9&idTabela=221",
+                "Código da informação adicional",
+                "Descrição da informação adicional"
+             ],
+             "5.3 - Tabela de Ajustes e Informações de Valores Provenientes de Documento Fiscal - AM":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=9&idTabela=222",
+                "Código do ajustes/benefício/incentivo",
+                "Descrição do ajustes/benefício/incentivo"
+             ],
+             "Tabela de Códigos de Receita":[
+                "http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=9&idTabela=188",
+                "Código de Receita",
+                "Descrição do Código de Receita"
+             ]
+          }
+       }
+    }
+ }

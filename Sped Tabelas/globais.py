@@ -2,6 +2,7 @@ import json
 import requests
 from unidecode import unidecode
 
+lista = []
 
 def request_tabela_cest():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=996')
@@ -54,7 +55,7 @@ def request_tabela_cest():
 
     with open('CEST.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_sped_fiscal():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=11')
@@ -107,7 +108,7 @@ def request_tabela_sped_fiscal():
 
     with open('sped_fiscal.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_reducao_z():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=8')
@@ -160,7 +161,7 @@ def request_tabela_reducao_z():
 
     with open('reducao_z.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_icms():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=5')
@@ -213,7 +214,7 @@ def request_tabela_icms():
 
     with open('ICMS.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_cfop():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=2')
@@ -266,7 +267,7 @@ def request_tabela_cfop():
 
     with open('CFOP.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_ibge_municipios():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=4')
@@ -319,7 +320,7 @@ def request_tabela_ibge_municipios():
 
     with open('IBGE_Municipios.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_paises_ibge():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=6')
@@ -372,7 +373,8 @@ def request_tabela_paises_ibge():
 
     with open('IBGE_Paises.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})
 
 def request_tabela_paises_siscomex():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=13')
@@ -425,7 +427,7 @@ def request_tabela_paises_siscomex():
 
     with open('SISCOMEX_Paises.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_solventes():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=1')
@@ -478,7 +480,7 @@ def request_tabela_solventes():
 
     with open('Solventes_Combustiveis.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_mercadoria():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=3')
@@ -531,7 +533,7 @@ def request_tabela_mercadoria():
 
     with open('Mercadoria_servico.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_transporte_eletronico():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=12')
@@ -584,7 +586,7 @@ def request_tabela_transporte_eletronico():
 
     with open('Transporte_eletronico.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_transporte_conhecimento():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=7')
@@ -637,7 +639,7 @@ def request_tabela_transporte_conhecimento():
 
     with open('Conhecimento_transporte.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_codigo_uf():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=9')
@@ -690,7 +692,7 @@ def request_tabela_codigo_uf():
 
     with open('Codigo_UF.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 def request_tabela_sigla_uf():
     r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=1&idTabela=10')
@@ -743,6 +745,6 @@ def request_tabela_sigla_uf():
 
     with open('Sigla_UF.json', 'w') as f:
         f.write(json_dados)
-
+    print({json_dados['Link_arquivo']:json_dados['Tabela']})    
 
 

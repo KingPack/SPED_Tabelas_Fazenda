@@ -1,17 +1,50 @@
 import json
 import requests
+
 from unidecode import unidecode
 
 
+url_requests = open('./seila.json', 'r')
+
+linha = url_requests.readlines()
 
 
-def request_tabela_sevicos():
-    r = requests.get('http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=6&idTabela=31')
+print(linha)
 
-    valores = r.content
+def find_algo(pacote, tabela):
+
+    for pack in url_requests["Pacote"]:
+
+        if pack == pacote:
+
+            for table in url_requests["Pacote"][pacote]:
+
+                if table == tabela:
+                    url = url_requests["Pacote"][pacote][tabela]
+                    table_request(url)
+                    break
+
+                else:
+                    print("essa tabela nao")
+
+            break
+
+        else:
+            print('Num tenho')
+
+
+
+    return "ok"
+
+def table_request(url):
+
+    req_table = requests.get(url)
+
+    valores = req_table.content
     dados_decodificados = valores.decode("unicode_escape")
     dados_sem_acento = unidecode(dados_decodificados)
     dados_identados = dados_sem_acento.split('\r\n')
+
     quantidade_linhas_maxima = len(dados_identados)-1
 
     lista = []
@@ -27,7 +60,7 @@ def request_tabela_sevicos():
         data_inicio = f'{dia_inicio}/{mes_inicio}/{ano_inicio}'
 
         if not linha[3]:
-            data_fim = False
+            data_fim = None
 
         else:
             dia_fim = linha[3][0:2]
@@ -46,7 +79,7 @@ def request_tabela_sevicos():
             'Pacote':'Tabelas de Classes de Consumo',
             'Tabela':'4.4.1- Tabela Classificacao de Itens de Energia Eletrica, Servicos de Comunicacao e Telecomunicacao',
             'Versao': dados_identados[0][7:8],
-            'Link_arquivo': 'http://www.sped.fazenda.gov.br/spedtabelas/appconsulta/obterTabelaExterna.aspx?idPacote=6&idTabela=31',
+            'Link_arquivo': url,
             'Link_site': 'http://www.sped.fazenda.gov.br/spedtabelas/AppConsulta/publico/aspx/ConsultaTabelasExternas.aspx?CodSistema=SpedFiscal',
             'Dados':lista,
             }, 
@@ -54,9 +87,15 @@ def request_tabela_sevicos():
         indent=4
         )
 
-    with open('servicos_comunicacao.json', 'w') as f:
-        f.write(json_dados)
+
+    return json_dados
 
 
-# request_tabela_sevicos()
 
+
+
+
+pacote = "Tabelas Genericas - ICMS"
+tabela = "Tabela de Códigos de Receita - GNRE"
+
+# find_algo(pacote, tabela)
